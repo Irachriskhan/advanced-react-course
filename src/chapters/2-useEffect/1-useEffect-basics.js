@@ -3,14 +3,19 @@ import React, { useState, useEffect } from "react";
 // cleanup function
 // second parameter
 const UseEffectBasics = () => {
+  const [value, setValue] = useState(0);
+
   useEffect(() => {
     console.log("calling the useEffect");
-    if (value > 1) document.title = `${value} New Messages`;
+    if (value > 3) document.title = `${value} New Messages`;
+  }, [value]);
+
+  useEffect(() => {
+    console.log("calling New useEffect");
   });
 
   console.log("render the component");
 
-  const [value, setValue] = useState(0);
   return (
     <>
       <h2>useEffect Basics</h2>

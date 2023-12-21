@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Setup from "./chapters/1-useState/5-useState-counter";
+import Setup from "./chapters/2-useEffect/3-useEffect-fetch-data";
 
 function App() {
   return (
