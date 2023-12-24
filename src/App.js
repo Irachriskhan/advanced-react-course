@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Setup from "./chapters/3-conditional-rendering/1-multiple-returns";
+import Setup from "./chapters/3-conditional-rendering/2-short-circuit";
 
 function App() {
   return (
