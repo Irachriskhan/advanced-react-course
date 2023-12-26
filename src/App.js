@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Setup from "./chapters/4-forms/1-controlled-inputs";
+import Setup from "./chapters/4-forms/2-multiple-inputs";
 
 function App() {
   return (
