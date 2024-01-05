@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 import Setup from "./chapters/6-useReducer";
 
@@ -12,4 +12,4 @@ function App() {
 }
 
 export default App;
-// 7:34:00
+// 7:37:34
