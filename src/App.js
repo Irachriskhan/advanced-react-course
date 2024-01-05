@@ -1,11 +1,11 @@
 // import logo from "./logo.svg";
 import "./App.css";
-import Setup from "./chapters/6-useReducer";
+import Setup from "./chapters/7-prop-drilling/1-prop-drilling";
 
 function App() {
   return (
     <div className="container">
-      <h1>React useReducer</h1>
+      <h1>Advanced React</h1>
       <Setup />
     </div>
   );
